@@ -107,7 +107,15 @@
 ul.navMenu li{
 	display: inline;
 }
-
+.collapse .active{
+  border-bottom:3px solid #74a3b7;
+}
+.nav.navbar-nav > li >a:hover{
+  border-bottom:3px solid #74a3b7; 
+}
+.nav.navbar-nav > li >a{
+  border-bottom:3px solid transparent; 
+}
 .dropdown-large {
   position: static !important;
 }
@@ -249,6 +257,7 @@ ul.navMenu li{
 
 .lightBlue{
 	background-color: #74a3b7;
+  padding: 10px;
 }
 .lightBlue p{
 	color: white;
@@ -313,9 +322,7 @@ p.copyright{
   color: rgb(57, 85, 99);
   line-height: 1.25;
 }
-.collapse .active{
-	border-bottom:3px solid #74a3b7;
-}
+
 .breadcrumb{
 	background-color: transparent;
 }
@@ -361,12 +368,6 @@ p.copyright{
   font-weight: bold;
   line-height: 1.25;
   margin-bottom: 0px;
-}
-.date{
-  font-size: 14px;
-  font-family: "Calibri";
-  color: rgb(158, 158, 158);
-  line-height: 2.143;
 }
 .blog p{
   font-size: 14px;
@@ -451,3 +452,122 @@ p.copyright{
 .goods .nav a{
 	color: black;
 }
+
+
+.pagination .previous{
+  background-image: url(./../img/BLeftControl_p.png);
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  margin-right: 10px;
+}
+.pagination .previous:hover{
+  background-image: url(./../img/BLeftControl_a.png);
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  margin-right: 10px;
+}
+.pagination .next{
+  background-image: url(./../img/BRightControl_p.png);
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  margin-right: 10px;
+}
+.pagination .next:hover{
+  background-image: url(./../img/BRightControl_a.png);
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.pull-right a {
+  font-size: 18px;
+  font-family: "Calibri";
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  line-height: 1.667;
+}
+
+.goods_status_order{
+    background-image: url(./../img/sale.png);
+    position: absolute;
+    top: 10px;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 0 10px;
+    font-size: 12px;
+    font-family: "Calibri";
+    color: rgb(255, 255, 255);
+    line-height: 2.5;
+
+}
+.goods_status_sale{
+    background-image: url(./../img/saler.png);
+    position: absolute;
+    top: 10px;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 0 10px;
+    font-size: 12px;
+    font-family: "Calibri";
+    color: rgb(255, 255, 255);
+    line-height: 2.5;
+
+}
+.thumbnail p.title{
+  font-size: 14px;
+  font-family: "Calibri";
+  color: #12a6cc;
+  line-height: 2.143;
+  margin: 0px;
+}
+.pull-left p.status{
+  font-size: 12px;
+  font-family: "Calibri";
+  color: #958f77;
+  line-height: 2.5;
+  margin: 0px;
+}
+.pull-right p.price{
+  font-size: 12px;
+  font-family: "Calibri";
+  color: #395563;
+  font-weight: bold;
+  line-height: 2.5;
+  margin: 0px;
+}
+
+.old_price{
+  font-size: 12px;
+  font-family: "Calibri";
+  color: rgb(149, 143, 119);
+  text-decoration: line-through;
+  display: block;
+}
+.new_price{
+  font-size: 12px;
+  font-family: "Calibri";
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+  display: block;
+}
+.date{
+  font-size: 14px;
+  font-family: "Calibri";
+  color: rgb(158, 158, 158);
+}
+.itemBlog h3{
+  margin: 0px;
+}
+.newsDescription{
+  font-size: 14px;
+  font-family: "Calibri";
+  color: rgb(0, 0, 0);
+}
+
+.titleBottom , .copyright{
+  text-align: center;
+} 
