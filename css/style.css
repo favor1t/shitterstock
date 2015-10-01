@@ -571,3 +571,6 @@ p.copyright{
 .titleBottom , .copyright{
   text-align: center;
 } 
+.text-right{
+  text-align: right;
+}
