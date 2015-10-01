@@ -346,6 +346,20 @@ p.copyright{
   color: rgb(0, 0, 0);
   font-weight: bold;
   line-height: 2.143;
+  margin-left: 10px;
+}
+.leftmenu >li.active:before{
+    content: ">";
+    display: inline-block;
+    font-weight: bold;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+.leftmenu >li:before{
+    content: ">";
+    font-weight: bold;
 }
 .leftmenu >li{
   border-bottom: 1px dashed gray;
