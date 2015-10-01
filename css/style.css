@@ -400,6 +400,7 @@ p.copyright{
 	background-color: #fff;
 	padding: 10px;
 	margin-top: 20px;
+  margin-bottom: 20px;
 }
 .goods h2 {
   font-size: 24px;
@@ -420,6 +421,9 @@ p.copyright{
 	margin: 10px;
 	border: 1px solid #395563;
 }
+#imgchange{
+  width: 78px;
+}
 .buyItem{
   background-color: #395563;
   font-size: 14px;
@@ -439,6 +443,7 @@ p.copyright{
   font-family: "Calibri";
   color: rgb(57, 85, 99);
   line-height: 1.25;
+  margin:0;
 }
 
 
