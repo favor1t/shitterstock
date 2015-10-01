@@ -339,6 +339,7 @@ p.copyright{
 }
 .gray{
 	background-color: #eeeeec;
+  padding:10px;
 }
 .leftmenu >li a{
   font-size: 14px;
