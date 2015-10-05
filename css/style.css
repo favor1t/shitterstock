@@ -620,3 +620,20 @@ p.copyright{
   height: 24px;
   margin-top: 10px;
 }
+.red_text_basket{
+  font-size: 18px;
+  font-family: "Calibri";
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+  line-height: 1.111;
+}
+.padding {
+  padding: 15px!important;
+}
+.btn-buy{
+  background-color: #395563;
+  border-color:#395563;
+  color: white;
+  padding: 5px 8px;
+  margin-left: 15px;
+}
